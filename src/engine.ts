@@ -26,11 +26,11 @@ export const config: MarkdownEngineConfig = {
   frontMatterRenderingOption: 'none',
   imageFolderPath: '/assets',
   printBackground: false,
-  phantomPath: 'phantomjs',
   pandocPath: 'pandoc',
   pandocMarkdownFlavor: 'markdown-raw_tex+tex_math_single_backslash',
   pandocArguments: [],
   latexEngine: 'pdflatex',
+	plantumlServer: '',
   enableScriptExecution: false
 };
 
